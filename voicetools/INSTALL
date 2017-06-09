@@ -1,0 +1,1 @@
+Some scripts may rely on the compilation of the `ttslab_dtw.pyx` module using Cython. For this purpose the bash script `compile_dtw.sh` serves as an example of how to do this.

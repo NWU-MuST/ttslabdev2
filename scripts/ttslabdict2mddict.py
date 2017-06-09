@@ -1,0 +1,1 @@
+../voicetools/ttslabdict2mddict.py

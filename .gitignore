@@ -1,0 +1,11 @@
+working_*
+*.pyc
+*.pickle
+.emacs.desktop
+*~
+__pycache__
+halign/timtest_MFCC_0_D_A_Z_5s10w.tar.gz
+voicetools/HTS-template_16k_MELP.tar.gz
+voicetools/HTS-template_48k_MELP.tar.gz
+voicetools/ttslab_dtw.c
+voicetools/ttslab_dtw.so
