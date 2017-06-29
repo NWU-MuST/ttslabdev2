@@ -83,7 +83,7 @@ class f0filler:
 
         fd, tmp = mkstemp()
 
-        command_string = "praat " + f0script + " " + wavefile + " " + tmp;
+        command_string = "praat --run " + f0script + " " + wavefile + " " + tmp;
         commands.getoutput(command_string);
 
         f=open(tmp,"r");

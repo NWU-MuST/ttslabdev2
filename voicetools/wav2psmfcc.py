@@ -3,6 +3,10 @@
 """
     Uses "praat" and "sig2fv" to  extract features pitch synchronously
     saving the results in HTK format file...
+
+    Note: You need to have the command-line-only version of Praat
+    installed... i.e. to run scripts the binary is called:
+    `praat --run <SCRIPT>`
 """
 from __future__ import unicode_literals, division, print_function #Py2
 
@@ -146,6 +150,7 @@ class PMExtractor():
         tempfh.flush()
 
         p = subprocess.Popen(" ".join([PMExtractor.PRAAT_BIN,
+                                       "--run",
                                        tempfh.name,
                                        wavfilelocation]),
                              stdout = subprocess.PIPE,
